@@ -1,3 +1,3 @@
-from django.db import models
-
-# Create your models here.
+from .models.PostModel import Post
+from .models.CommentModel import Comment
+from .models.ImageModel import Image
